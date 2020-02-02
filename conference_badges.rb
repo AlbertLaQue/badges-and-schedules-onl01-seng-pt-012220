@@ -8,7 +8,6 @@ end
 
 def batch_badge_creator(names)
   names.collect do |x| 
-   "Hello, my name is #{x}."
   end 
 end 
 
