@@ -8,7 +8,6 @@ end
 
 def batch_badge_creator(names)
   names.collect {|x| badge_maker(name)}
-  end 
 end 
 
 def assign_rooms(array)
