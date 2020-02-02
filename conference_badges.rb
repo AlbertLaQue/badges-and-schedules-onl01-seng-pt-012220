@@ -7,7 +7,7 @@ def badge_maker(name)
 end 
 
 def batch_badge_creator(names)
-  names.collect {|x| badge_maker(name)}
+  names.map {|x| badge_maker(name)}
 end 
 
 # def assign_rooms(array)
